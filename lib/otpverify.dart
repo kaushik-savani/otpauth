@@ -18,7 +18,7 @@ class _otpverifyState extends State<otpverify> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("otp verify"),
+        title: Text("otp veridication"),
       ),
       body: Column(
         children: [

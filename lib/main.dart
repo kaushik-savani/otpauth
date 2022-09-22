@@ -4,8 +4,8 @@ import 'package:otpauth/otpverify.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-
-  );
-  runApp(MaterialApp(home: otpverify(),));
+  await Firebase.initializeApp();
+  runApp(MaterialApp(
+    home: otpverify(),
+  ));
 }
